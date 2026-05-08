@@ -1,0 +1,119 @@
+[
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "GetPageInfo",
+    "RelativePath": "api/page/{pageId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "GetInsights",
+    "RelativePath": "api/page/{pageId}/insights",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "GetPagePosts",
+    "RelativePath": "api/page/{pageId}/posts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "CreatePost",
+    "RelativePath": "api/page/{pageId}/posts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "FacebookAPI___PageAPI.models.CreatePostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "DeletePost",
+    "RelativePath": "api/page/post/{postId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "GetComments",
+    "RelativePath": "api/page/post/{postId}/comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FacebookAPI___PageAPI.controllers.PageController",
+    "Method": "GetLikes",
+    "RelativePath": "api/page/post/{postId}/likes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

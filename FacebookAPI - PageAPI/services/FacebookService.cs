@@ -68,7 +68,7 @@ namespace FacebookAPI___PageAPI.services
 
         public async Task<object> GetPageInsightsAsync(string pageId)
         {
-            var metrics = "page_impressions,page_reach,page_post_engagements,page_fans,page_views";
+            var metrics = "page_views_total";
             var url = $"{BaseUrl}/{pageId}/insights?metric={metrics}&access_token={_accessToken}";
             return await SendGetRequest(url);
         }
