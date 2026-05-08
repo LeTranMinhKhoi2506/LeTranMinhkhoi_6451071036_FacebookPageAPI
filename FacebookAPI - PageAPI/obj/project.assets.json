@@ -746,11 +746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI.csproj",
+      "projectUniqueName": "C:\\LeTranMinhkhoi_6451071036_FacebookPageAPI\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI.csproj",
       "projectName": "FacebookAPI - PageAPI",
-      "projectPath": "C:\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI.csproj",
+      "projectPath": "C:\\LeTranMinhkhoi_6451071036_FacebookPageAPI\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI.csproj",
       "packagesPath": "C:\\Users\\anhla\\.nuget\\packages\\",
-      "outputPath": "C:\\FacebookAPI - PageAPI\\FacebookAPI - PageAPI\\obj\\",
+      "outputPath": "C:\\LeTranMinhkhoi_6451071036_FacebookPageAPI\\FacebookAPI - PageAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -769,7 +769,6 @@
       },
       "frameworks": {
         "net9.0": {
-          "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -788,7 +787,6 @@
     },
     "frameworks": {
       "net9.0": {
-        "framework": "net9.0",
         "targetAlias": "net9.0",
         "dependencies": {
           "Confluent.Kafka": {
